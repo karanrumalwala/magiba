@@ -1,2 +1,0 @@
-# magiba
-RDNF
