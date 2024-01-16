@@ -4,29 +4,6 @@
 	/*-webkit-box-sizing:inherit;*/
 	box-sizing:inherit;
 }
-a:link {
-  color: #d6cab0;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #d6cab0;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #d6cab0;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: #d6cab0;
-  background-color: transparent;
-  text-decoration: underline;
-}
 body{
 	/*font-family: "Nunito",sans-serif;*/
 	font-family: 'PT Serif', serif;
@@ -160,7 +137,7 @@ body{
   	writing-mode: vertical-rl;
 }
 .e_s,.e_s:hover{
-	font-size: 1rem;
+	font-size: 2rem;
 	transition: 0.5s;
 	transition-timing-function: ease;
 }
@@ -285,6 +262,21 @@ h3{
 .about__content--text{
 	letter-spacing: 0.1rem;
 }
+.footer1{
+		grid-column-start: full-start;
+		grid-column-end: full-end;
+		display: flex;
+		flex-direction:row;
+		align-items:flex-start;
+	}
+.footer_text{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	height: auto;
+	font-size: 2.5rem;
+}
 
 /*Mobile*/
 @media only screen and (min-width: 375px) and (max-width: 700px){
@@ -398,8 +390,7 @@ h3{
 		transform: translatex(0%);
 	}
 	.mobile_items{
-		font-size: 3em;
-		margin: auto;
+		font-size: 4em;
 	}
 	.contents{
 		counter-increment: item 1;
@@ -424,6 +415,77 @@ h3{
 		margin-bottom: 2rem;
 		font-size: 3.5rem;
 	}
+	.footer1{
+		padding: 2.7rem;
+		float: left;
+		display: flex;
+	}
+	.foot-1,.foot-2{
+		display: flex;
+		height: 10rem;
+		width: 10rem;
+		filter: invert(100%);
+	}
+	.email{
+	display: flex;
+	justify-content: flex-end;
+	height: 100%;
+  	width: 4rem;
+  	position:fixed;
+  	top: 0;
+  	right: 0;
+  	align-items: center;
+  	writing-mode: vertical-rl;
+}
+.e_s,.e_s:hover{
+	font-size: 2rem;
+	transition: 0.5s;
+	transition-timing-function: ease;
+}
+.e_s:hover{
+	transform: scale(1.1) translate(0px,-5px);
+}
+.email_link{
+	color:#d6cab0;
+	text-decoration:none;
+	letter-spacing: .2rem;
+}
+.email::after{
+	content:"";
+	height: 12vh;
+	width: 1px;
+	background-color: #d6cab0;
+	margin: 1rem auto 0;
+}
+.social_sidebar{
+	float: left;
+	width: 3.5rem;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	position: fixed;
+	margin: 10px;
+	align-items: center;
+}
+.lkiconfill{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height:30px;
+	margin: 20px;
+	fill: #000000;
+}
+.lkiconfillc{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height:30px;
+	margin: 20px;
+	fill: #d6cab0;
+}
 }
 @media only screen and (min-width: 701px){
 	.hamburger_button, .mobile{

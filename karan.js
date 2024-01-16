@@ -32,7 +32,6 @@ var items= document.getElementsByTagName('a');
 	var socialcolor1 = document.getElementsByClassName("lkicon")[1];
 	var socialcolor2 = document.getElementsByClassName("lkicon")[2];
 	var socialcolor3 = document.getElementsByClassName("lkicon")[3];
-	// console.log(socialcolor);
 	button.addEventListener("click",ch);
 
 	function ch(){
