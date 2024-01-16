@@ -21,7 +21,7 @@ a{
 
 .container{
 	display: grid;
-	grid-template-rows: min-content 68vh repeat(7, min-content);
+	grid-template-rows: min-content 60vh repeat(7, min-content);
 	grid-template-columns: [sidebar-start] minmax(min-content, 8rem) 
 	[sidebar-end full-start] 1fr [full-end email-start] 
 	minmax(min-content, 8rem) [email-end];
