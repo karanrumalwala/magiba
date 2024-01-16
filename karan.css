@@ -450,7 +450,7 @@ h3{
   	align-items: center;
   	writing-mode: vertical-rl;
 }
-.e_s,.e_s:hover{
+/.e_s,.e_s:hover{
 	font-size: 2rem;
 	transition: 0.5s;
 	transition-timing-function: ease;
