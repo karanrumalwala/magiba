@@ -31,7 +31,6 @@ var items= document.getElementsByTagName('a');
 	var socialcolor0 = document.getElementsByClassName("lkicon")[0];
 	var socialcolor1 = document.getElementsByClassName("lkicon")[1];
 	var socialcolor2 = document.getElementsByClassName("lkicon")[2];
-	var socialcolor3 = document.getElementsByClassName("lkicon")[3];
 	button.addEventListener("click",ch);
 
 	function ch(){
@@ -47,7 +46,6 @@ var items= document.getElementsByTagName('a');
 	 	    socialcolor0.className="lkiconfill";
 	 	    socialcolor1.className="lkiconfill";
 	 	    socialcolor2.className="lkiconfill";
-	 	    socialcolor3.className="lkiconfill";
  		    isColor=false;
 		}
 			else
@@ -60,7 +58,6 @@ var items= document.getElementsByTagName('a');
 	 	    socialcolor0.className="lkiconfillc";
 	 	    socialcolor1.className="lkiconfillc";
 	 	    socialcolor2.className="lkiconfillc";
-	 	    socialcolor3.className="lkiconfillc";
  		    isColor=true;
 		}
 
